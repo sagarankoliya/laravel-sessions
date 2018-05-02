@@ -14,7 +14,7 @@ Here I have show you that we can mange the sessions of particular users of multi
 
 **_Step : 1_**
 
-```
+```php
 git clone https://github.com/sagarankoliya/laravel-sessions.git
 ```
 
@@ -22,7 +22,7 @@ git clone https://github.com/sagarankoliya/laravel-sessions.git
 
 Go to project directory using **Terminal / CMD**
 
-```
+```php
 composer install
 ```
 If you don`t have composer then install
@@ -34,13 +34,13 @@ In project directory find **_.env.example_** and rename to **_.env_**
 
 Generate laravel application key
 
-```
+```php
 php artisan key:generate
 ```
 
 Also change **DB_DATABASE, DB_USERNAME, DB_PASSWORD** in .env
 
-```
+```php
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -53,7 +53,7 @@ DB_PASSWORD=secret
 
 Run Migration
 
-```
+```php
 php artisan migrate
 ```
 
@@ -61,7 +61,7 @@ php artisan migrate
 
 Run Project
 
-```
+```php
 php artisan serve
 ```
 
